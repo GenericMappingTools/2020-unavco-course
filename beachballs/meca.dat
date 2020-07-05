@@ -1,0 +1,4 @@
+# lon lat depth mrr mtt mpp mrt mrp mtp iexp name
+114 32.9 24  0.06 -2.48  2.42 -0.34  0.52 -5.10 25 X Y strike-slip fault
+115 33.0  5 -1.55  0.13  1.42  0.24 -0.29 -0.38 24 X Y normal fault
+116 33.1 13  2.41 -0.15 -2.26  1.03 -1.81  0.48 22 X Y reverse fault
