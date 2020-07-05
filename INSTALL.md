@@ -49,7 +49,7 @@ There are 2 options for installing GMT 6.1.0:
 
 1. Use the [conda package manager](https://conda.io/en/latest/) to install
    binaries for GMT and all dependencies (**recommended**)
-3. Build GMT from source and install dependencies from your system package manager (see
+2. Build GMT from source and install dependencies from your system package manager (see
    [instructions below](#building-gmt-from-source))
 
 Unfortunately, you cannot use your system package manager to install GMT because this
