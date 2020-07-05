@@ -33,7 +33,7 @@ If have any trouble installing, there are a few you ways to ask for help:
 * Open an *Issue* on this repository by
   [clicking here](https://github.com/GenericMappingTools/2020-unavco-course/issues/new/choose).
   You'll need a GitHub account to do this.
-* Post to our [Gitter chatroom](https://gitter.im/GenericMappingTools/2020-unavco-course)
+* Post to the [GMT Community Forum](https://forum.generic-mapping-tools.org/)
 
 Key things you need to tell us so that we can help you:
 
@@ -64,17 +64,11 @@ Most Linux distributions come with a text editor installed. You may also
    This will give you access to the conda package manager. **Make sure you select to
    have conda added to your `PATH` when asked by the installer**. If you have
    the Anaconda Python distribution installed, you won't need to do this step.
-2. Install GMT 6.1.0 and its dependencies (including ghostscript and gdal) by running
+2. Install GMT 6.1.0 and its dependencies (including ghostscript, gdal, ffmpeg and graphicsmagick) by running
    the following in a terminal:
 
    ```
-   conda install gmt=6.1.0 -c conda-forge/label/dev -c conda-forge
-   ```
-
-3. Install ffmpeg using conda by running the following in a terminal:
-
-   ```
-   conda install ffmpeg -c conda-forge
+   conda install gmt=6.1.0 -c conda-forge
    ```
 
 ## Mac
