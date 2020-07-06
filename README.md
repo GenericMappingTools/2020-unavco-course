@@ -47,7 +47,7 @@ there are a few ways to ask for help:
 * Open an *Issue* on this repository by
   [clicking here](https://github.com/GenericMappingTools/2020-unavco-course/issues/new/choose).
   You'll need a GitHub account to do this.
-* Post to our [Gitter chatroom](https://gitter.im/GenericMappingTools/2020-unavco-course)
+* Post to the [GMT Community Forum](https://forum.generic-mapping-tools.org/)
 
 ## Video, Slides and Notes
 
