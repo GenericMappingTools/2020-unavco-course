@@ -11,7 +11,7 @@ that you get the correct output.
 * Open an *Issue* on this repository by
   [clicking here](https://github.com/GenericMappingTools/2020-unavco-course/issues/new/choose).
   You'll need a GitHub account to do this.
-* Alternatively, post to our [Gitter chatroom](https://gitter.im/GenericMappingTools/2020-unavco-course)
+* Alternatively, post to the [GMT Community Forum](https://forum.generic-mapping-tools.org/)
 
 ## Tasks
 
