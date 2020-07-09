@@ -2,7 +2,7 @@
 
 
 > 🚨 **IMPORTANT NOTE** 🚨
-> Installing GMT and its dependencies, in other OS than Windows, can be a difficult task even for experienced
+> Installing GMT and its dependencies, especially for Linux, can be a difficult task even for experienced
 > users (including the developers themselves). So **don't be discouraged** if you
 > have any trouble or questions. [We're here to help you work through it!](#need-help)
 
