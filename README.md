@@ -51,16 +51,7 @@ there are a few ways to ask for help:
 
 ## Video, Slides and Notes
 
-The workshop video recording can be found on Youtube:
-https://www.youtube.com/playlist?list=PLzmugeDoplFMwr1W7dgmwf26p83ie6ZEN
-
-The slides with notes for the course are available in this
-Google Drive folder:
-https://drive.google.com/drive/folders/1zElyVNOYKK_Uea9FWCTlvYig75KZlzjZ?usp=sharing
-
-We also have shared notes on this Google Docs:
-https://docs.google.com/document/d/1TzWVXUwHRVdQki1kKNr07CU9-0bUPRsLCQTdVyutlNg/edit?usp=sharing
-
+The workshop video recording, slides and shared notes will be availabe during or after the workshop.
 
 ## Schedule
 
