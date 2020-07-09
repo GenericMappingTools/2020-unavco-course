@@ -75,7 +75,8 @@ Most Linux distributions come with a text editor installed. You may also
 
 There are 4 options for installing GMT 6.1.0 on Mac:
 
-1. Use the GMT bundle installer (follow [this instruction](https://github.com/GenericMappingTools/gmt/blob/master/INSTALL.md#application-bundle)) (**recommended** for macOS >= 10.14 only) 
+1. Use the GMT bundle installer (follow [this instruction](https://github.com/GenericMappingTools/gmt/blob/master/INSTALL.md#application-bundle))
+   (**recommended** for macOS >= 10.14 only; if you have an older OS version consider upgrading first so you can use the installer) 
 2. Use homebrew (follow the ["Install instruction"](https://github.com/GenericMappingTools/gmt/blob/master/INSTALL.md#install-via-homebrew))
 3. Use the [conda package manager](https://conda.io/en/latest/) to install
    binaries for GMT and all dependencies
