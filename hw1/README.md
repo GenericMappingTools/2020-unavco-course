@@ -15,8 +15,7 @@ that you get the correct output.
 
 ## Tasks
 
-0. Fill out the following survey so that we can better prepare for the workshop:
-   https://forms.gle/1e8kBsN22KSjhioN9
+0. So that we can better prepare for the course, please out the following [survey](https://docs.google.com/forms/d/1ahnMHrv8nSFB54Tc8BXz70ZUmHEy6uaNmMMsYSOQX3Y).
 1. Follow the [install instructions](../INSTALL.md) to setup your computer.
 2. Open a terminal (Mac: open the "Terminal" app; Windows: open "Git Bash").
    The following steps should be done in the terminal.
@@ -54,7 +53,7 @@ that you get the correct output.
 
    This should produce 2 files called `count.mp4` and `count.webm` in the
    `2020-unavco-course/hw1` folder. To open the mp4 movie (replace with `.webm`
-   if the mp4 doesn't work):
+   if the mp4 doesn't work on your system):
 
    * Mac: run `open count.mp4`
    * Linux: run `xdg-open count.mp4`
