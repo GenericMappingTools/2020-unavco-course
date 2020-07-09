@@ -63,4 +63,4 @@ that you get the correct output.
 
    ![`2020-unavco-course/hw1/output/count.mp4`](output/count.gif)
 7. Tell us if you were able to complete homework 1 (and give us some feedback so we can better prepare for the course) by filling out
-   the following short [survey](https://docs.google.com/forms/d/1ahnMHrv8nSFB54Tc8BXz70ZUmHEy6uaNmMMsYSOQX3Y).
+   the following short [survey](https://docs.google.com/forms/d/1ahnMHrv8nSFB54Tc8BXz70ZUmHEy6uaNmMMsYSOQX3Y) by end of Saturday.
