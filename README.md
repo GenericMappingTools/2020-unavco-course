@@ -10,7 +10,7 @@ Material for the 2020 UNAVCO Short Course.
 [Xiaohua Xu](https://www.researchgate.net/profile/Xiaohua_Xu7)
 
 **Assistants:**
-Brook Tozer [GNI New Zealand], Lauren Ward and Andrew Chase [UH Manoa]
+Brook Tozer [GNS New Zealand], Lauren Ward and Andrew Chase [UH Manoa]
 
 **When [DRAFT]**:
 July 20-21 (Monday-Tuesday), 2020.
