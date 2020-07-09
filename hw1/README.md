@@ -42,7 +42,7 @@ that you get the correct output.
    ```
 
    A window should pop up with a colored relief map of northern Africa. It should look
-   like this:
+   like this (on a Mac, Preview may make it look a bit smoother):
 
    ![`2020-unavco-course/hw1/output/test1.pdf`](output/test1.png)
 6. Run the [`test_2.sh`](test_2.sh) script:
