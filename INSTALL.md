@@ -2,7 +2,7 @@
 
 
 > 🚨 **IMPORTANT NOTE** 🚨
-> Installing GMT and its dependencies, in other OS than Windows, can be a difficult task even for experienced
+> Installing GMT and its dependencies, especially for Linux, can be a difficult task even for experienced
 > users (including the developers themselves). So **don't be discouraged** if you
 > have any trouble or questions. [We're here to help you work through it!](#need-help)
 
@@ -22,7 +22,7 @@ and other software that will be used. Here is a summary of what you'll need:
 See specific instructions for your operating system below:
 
 * [Linux](#linux)
-* [Mac](#mac)
+* [macOS](#mac)
 * [Windows](#windows)
 
 
@@ -71,11 +71,12 @@ Most Linux distributions come with a text editor installed. You may also
    conda install gmt=6.1.0 -c conda-forge
    ```
 
-## Mac
+## macOS
 
-There are 4 options for installing GMT 6.1.0 on Mac:
+There are 4 options for installing GMT 6.1.0 under macOS:
 
-1. Use the GMT bundle installer (follow [this instruction](https://github.com/GenericMappingTools/gmt/blob/master/INSTALL.md#application-bundle)) (**recommended** for macOS >= 10.14 only) 
+1. Use the GMT bundle installer (follow [this instruction](https://github.com/GenericMappingTools/gmt/blob/master/INSTALL.md#application-bundle))
+   (**recommended** for macOS >= 10.14 only; if you have an older macOS version consider upgrading first so you can use the installer) 
 2. Use homebrew (follow the ["Install instruction"](https://github.com/GenericMappingTools/gmt/blob/master/INSTALL.md#install-via-homebrew))
 3. Use the [conda package manager](https://conda.io/en/latest/) to install
    binaries for GMT and all dependencies
@@ -92,7 +93,7 @@ Before installing GMT, you will need access to a UNIX style terminal with a
 [bash shell](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) for GMT scripting.
 **Don't worry if you don't know what this means. We'll go through it in the first day of
 the workshop.**
-Linux and Mac usually come with one installed but Windows users aren't so lucky.
+Linux and macOS usually come with one installed but Windows users aren't so lucky.
 To install a terminal with a bash shell on Windows:
 
 1. Download and install Git-for-Windows `Git-2.27.0-64-bit.exe` from
@@ -123,5 +124,5 @@ You'll need a [text editor](https://en.wikipedia.org/wiki/Text_editor) to write 
 scripts.
 Any editor is fine and may use your preferred one.
 If you don't have one, we recommend installing the "Stable" version of [Visual Studio
-Code](https://code.visualstudio.com/) on Linux, Mac, or Windows.
+Code](https://code.visualstudio.com/) on Linux, macOS, or Windows.
 Installers and instructions are available on their website.
