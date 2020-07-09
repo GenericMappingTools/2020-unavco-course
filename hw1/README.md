@@ -15,7 +15,6 @@ that you get the correct output.
 
 ## Tasks
 
-0. So that we can better prepare for the course, please out the following [survey](https://docs.google.com/forms/d/1ahnMHrv8nSFB54Tc8BXz70ZUmHEy6uaNmMMsYSOQX3Y).
 1. Follow the [install instructions](../INSTALL.md) to setup your computer.
 2. Open a terminal (Mac: open the "Terminal" app; Windows: open "Git Bash").
    The following steps should be done in the terminal.
@@ -63,3 +62,5 @@ that you get the correct output.
    this:
 
    ![`2020-unavco-course/hw1/output/count.mp4`](output/count.gif)
+7. Tell us if you were able to complete homework 1 (and give us some feedback so we can better prepare for the course) by filling out
+   the following short [survey](https://docs.google.com/forms/d/1ahnMHrv8nSFB54Tc8BXz70ZUmHEy6uaNmMMsYSOQX3Y).
