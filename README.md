@@ -51,7 +51,7 @@ there are a few ways to ask for help:
 
 ## Video, Slides and Notes
 
-The workshop video recording, slides and shared notes will be availabe during or after the workshop.
+The workshop video recording, slides and shared notes will be available [here](https://drive.google.com/drive/u/1/folders/1Vp8jKZJZnxJnBwiMtmEWw_G1DPr9CwSi).
 
 ## Schedule
 
