@@ -56,8 +56,10 @@ The workshop video recording, slides and shared notes will be available [here](h
 Please make sure you know the local time for the sessions!  Use the [time zone converter](https://www.timeanddate.com/worldclock/converter.html) and compare UTC to your time zone.
 Participants will receive the zoom invitation at least 24 hours before the start of the session.
 
-| **Day 1** | **Duration** | **UTC** |
-|:----------|:-------------|:------------|
+### Day 1:
+
+| **Theme** | **Duration** | **UTC Time** |
+|-----------|--------------|--------------|
 | Welcome   | 10 min | 17:00-17:10  |
 | UNIX and bash    | 25 min | 17:10-17:35  |
 | *Break*         | 15 min | 17:35-17:50  |
@@ -67,7 +69,11 @@ Participants will receive the zoom invitation at least 24 hours before the start
 | *Break*         | 15 min |  20:45-21:00  |
 | Grids and images      | 50 min |  21:00-21:50  |
 | Wrap up      | 10 min |  21:50-22:00  |
-| **Day 2** | **Duration** | **UTC** |
+
+### Day 2:
+
+| **Theme** | **Duration** | **UTC Time** |
+|-----------|--------------|--------------|
 | Welcome   | 10 min | 17:00-17:10  |
 | Seismology | 50 min |  17:10-18:00  |
 | *Break*      | 15 min |  18:00-18:15  |
@@ -81,8 +87,8 @@ Participants will receive the zoom invitation at least 24 hours before the start
 ## Communication During the Course
 
 We will use the Slack workspace, the Zoom Chat window, and the GitHub Issue Tracker to help you during the course:
-#. During a *presentation*, the other instructors will monitor the Slack workspace as well as the Chat room and answer any questions.
-#. During a *breakout session* you will be working on scripting.  If you get stuck, make a new issue on GitHub so that an instructor
+1. During a *presentation*, the other instructors will monitor the Slack workspace as well as the Chat room and answer any questions.
+2. During a *breakout session* you will be working on scripting.  If you get stuck, make a new issue on GitHub so that an instructor
    can help you.  You can post a description of the problem, your script or failing command, any error messages and any outputs or plots within the issue.
    Once resolved we will close that issue.
 
