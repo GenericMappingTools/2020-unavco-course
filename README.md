@@ -13,7 +13,7 @@ Material for the 2020 UNAVCO Short Course.
 Brook Tozer [GNS New Zealand], Lauren Ward and Andrew Chase [UH Manoa]
 
 **When [DRAFT]**:
-July 20-21 (Monday-Tuesday), 2020.
+July 20-21 (Monday-Tuesday), 2020., 1700-2200 UTC
 07:00 - 12:00 Hawaii
 10:00 - 15:00 US Pacific Coast
 13:00 - 18:00 US East Coast
