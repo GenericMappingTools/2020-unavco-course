@@ -11,6 +11,7 @@ plots, pseudo-color plots (images), etc.
 * [Pixel vs grid-line registration](#grid-registration)
 * [Plotting contours](#contour-plots)
 * [Plotting pseudo-color images](#pseudo-color-plots)
+* [Group exercise](#group-exercise)
 
 ## Grid formats
 
@@ -230,7 +231,7 @@ See the script [`images-cpt.sh`](images-cpt.sh). The output should look like:
 Further reading: https://docs.generic-mapping-tools.org/latest/cookbook/cpts.html#of-colors-and-color-legends
 and https://docs.generic-mapping-tools.org/latest/makecpt.html
 
-## Exercise
+## Group exercise
 
 You will be split into teams to work on an exercise:
 
@@ -238,5 +239,20 @@ You will be split into teams to work on an exercise:
 2. Work together to make a script that generates the desired plot
 3. If you have any questions, ask on the Slack chatroom
 
-**Bonus:** If you're all finished with the exercise and want an extra challenge,
-try the following:
+**Make a relief map of a country of your choice:**
+
+* Agree on which country you will map and find the [ISO country
+  code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) for that
+  country (to use as the region)
+* Choose a projection: https://docs.generic-mapping-tools.org/latest/cookbook/map-projections.html
+* Make a hillshaded pseudo-color plot of Earth relief (with either default CPT
+  or not)
+* Overlay contours on your plot. Be careful not to make your plot too busy with
+  the contours.
+* Add a colorbar.
+* BONUS: Add a label to the colorbar indicating that the units are meters.
+* BONUS: Add a title to your plot.
+
+You map should look something like this:
+
+<img src="exercise.png" width="60%">
