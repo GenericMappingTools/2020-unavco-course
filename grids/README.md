@@ -1,6 +1,6 @@
 # Plotting grids and images
 
-![Pseudo-color plot of Earth relief data](earth-relief.png)
+<img src="earth-relief.png" width="60%">
 
 This part of the tutorial is dedicated to plotting gridded data in GMT: contour
 plots, pseudo-color plots (images), etc.
@@ -111,7 +111,7 @@ Further reading: https://docs.generic-mapping-tools.org/latest/datasets/remote-d
 **Finally let's get to the plotting already!**
 We'll start with *contour plots* first.
 
-![Example of contour plot of Antarctica relief](contours-fancy.png)
+<img src="contours-global.png" width="60%">
 
 The command for making contour plots from grids is
 [`grdcontour`](https://docs.generic-mapping-tools.org/latest/grdcontour.html).
@@ -143,7 +143,7 @@ Here is a list of ISO 3166 country codes: https://en.wikipedia.org/wiki/List_of_
 
 See the script [`contours.sh`](contours.sh). The output should look like:
 
-![](contours.png)
+<img src="contours.png" width="50%">
 
 #### Customize the intervals and pens
 
@@ -152,7 +152,7 @@ contours. We can also set the line thickness and color (i.e., the *pen*). See
 the script [`contours-custom.sh`](contours-custom.sh). The output should look
 like:
 
-![](contours-custom.png)
+<img src="contours-custom.png" width="50%">
 
 
 #### BONUS: Make a fancy plot using different colors for ocean and land
@@ -161,8 +161,9 @@ Take the customization further by layering two plots: one for the oceans (in
 blue) and one for land (in gray). See the script
 [`contours-fancy.sh`](contours-fancy.sh). The output should look like:
 
-![](contours-fancy.png)
+<img src="contours-fancy.png" width="50%">
 
+Full list of GMT color names: https://docs.generic-mapping-tools.org/latest/gmtcolors.html
 
 ## Pseudo-color plots
 
