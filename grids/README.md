@@ -139,6 +139,8 @@ for every country/region in the world. GMT supports these codes as arguments to
 
 Here is a list of ISO 3166 country codes: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
 
+Further reading: https://docs.generic-mapping-tools.org/latest/cookbook/map-projections.html
+
 #### Plot with the default contour arguments
 
 See the script [`contours.sh`](contours.sh). The output should look like:
