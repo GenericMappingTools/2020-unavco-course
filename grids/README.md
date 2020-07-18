@@ -11,7 +11,6 @@ plots, pseudo-color plots (images), etc.
 * [Pixel vs grid-line registration](#grid-registration)
 * [Plotting contours](#contour-plots)
 * [Plotting pseudo-color images](#pseudo-color-plots)
-* [Colorbars and color palette tables (CPTs)](#colorbars-and-cpts)
 
 ## Grid formats
 
@@ -156,7 +155,6 @@ like:
 
 <img src="contours-custom.png" width="50%">
 
-
 #### BONUS: Make a fancy plot using different colors for ocean and land
 
 Take the customization further by layering two plots: one for the oceans (in
@@ -169,11 +167,57 @@ Full list of GMT color names: https://docs.generic-mapping-tools.org/latest/gmtc
 
 ## Pseudo-color plots
 
+These are the maps you might be used to seeing. Each data value is
+mapped to a color through a colormap or **color palette table** (CPT) as they
+are called in GMT.
+
+GMT has **many** CPTs: https://docs.generic-mapping-tools.org/latest/cookbook/cpts.html#of-colors-and-color-legends
+
+The command for plotting pseudo-color images in GMT is
+[`grdimage`](https://docs.generic-mapping-tools.org/latest/grdimage.html).
+By default, it will choose a CPT for you depending on the input grid. The Earth
+relief data are automatically assigned a topographic CPT.
+
+Further reading: https://docs.generic-mapping-tools.org/latest/grdimage.html
+and https://docs.generic-mapping-tools.org/latest/tutorial/session-4.html#color-images
+
 ### Follow along
 
-## Colorbars and CPTs
+> Open VSCode (or your text editor of choice) and follow along with the
+> exercise.
 
-### Follow along
+We'll continue with our map of Antarctica relief but this time we'll use color
+to represent values.
+
+#### Using the defaults
+
+First, plot the Earth relief data using the defaults, including a colorbar.
+See the script [`images.sh`](images.sh). The output should look like:
+
+<img src="images.png" width="50%">
+
+#### Choosing a CPT
+
+We can choose different CPTs for our plot, depending on the type of data we're
+plotting. Custom CPTs can be generated and configures with the `makecpt`
+command.
+See the script [`images-cpt.sh`](images-cpt.sh). The output should look like:
+
+<img src="images-cpt.png" width="50%">
+
+Further reading: https://docs.generic-mapping-tools.org/latest/cookbook/cpts.html#of-colors-and-color-legends
+and https://docs.generic-mapping-tools.org/latest/makecpt.html
+
+#### BONUS: Placing and customizing the colorbar
+
+We can control the placement of the colorbar using the `-D` option. We can also
+set the annotation intervals and add axis labels using `-B` (just like for a
+basemap).
+See the script [`images-colorbar.sh`](images-colorbar.sh). The output should look like:
+
+<img src="images-colorbar.png" width="50%">
+
+Further reading: https://docs.generic-mapping-tools.org/latest/colorbar.html
 
 ## Exercise
 
