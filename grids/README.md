@@ -108,10 +108,60 @@ Further reading: https://docs.generic-mapping-tools.org/latest/datasets/remote-d
 
 ## Contour plots
 
+**Finally let's get to the plotting already!**
+We'll start with *contour plots* first.
+
+![Example of contour plot of Antarctica relief](contours-fancy.png)
+
+The command for making contour plots from grids is
+[`grdcontour`](https://docs.generic-mapping-tools.org/latest/grdcontour.html).
+By default, it will plot using black contours with a reasonable interval.
+It has many options for configurations, which you are encouraged to explore.
+You can make very nice looking plots with `grdcontour`.
+
+Further reading: https://docs.generic-mapping-tools.org/latest/grdcontour.html
+
 ### Follow along
 
 > Open VSCode (or your text editor of choice) and follow along with the
 > exercise.
+
+We'll make contour plots of our Earth relief grid for Antarctica,
+starting with the default options and adding some tweaks to make it look a bit
+nicer.
+
+First, we need to set the `basemap` to the right region and use an appropriate
+projection. For Antarctica, we will go with a
+[South polar stereographic projection](https://docs.generic-mapping-tools.org/latest/cookbook/map-projections.html#polar-stereographic-map).
+The region can be set using *ISO 3166 country code*. This is a 2-letter code
+for every country/region in the world. GMT supports these codes as arguments to
+`-R`. This means that we can specify the region for Antarctica as `-RAQ`:
+
+Here is a list of ISO 3166 country codes: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+
+#### Plot with the default contour arguments
+
+See the script [`contours.sh`](contours.sh). The output should look like:
+
+![](contours.png)
+
+#### Customize the intervals and pens
+
+Now we can tweak this a bit to specify intervals for regular and annotated
+contours. We can also set the line thickness and color (i.e., the *pen*). See
+the script [`contours-custom.sh`](contours-custom.sh). The output should look
+like:
+
+![](contours-custom.png)
+
+
+#### BONUS: Make a fancy plot using different colors for ocean and land
+
+Take the customization further by layering two plots: one for the oceans (in
+blue) and one for land (in gray). See the script
+[`contours-fancy.sh`](contours-fancy.sh). The output should look like:
+
+![](contours-fancy.png)
 
 
 ## Pseudo-color plots
