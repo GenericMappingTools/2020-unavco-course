@@ -8,7 +8,6 @@ plots, pseudo-color plots (images), etc.
 ## Topics
 
 * [Main grid formats in GMT](#grid-formats)
-* [Pixel vs grid-line registration](#grid-registration)
 * [Plotting contours](#contour-plots)
 * [Plotting pseudo-color images](#pseudo-color-plots)
 * [Group exercise](#group-exercise)
@@ -41,6 +40,11 @@ Further reading: https://docs.generic-mapping-tools.org/latest/gmt.html#grd-inou
 All GMT commands that operate on grids start with `grd`: `grdimage`,
 `grdsample`, `grdcontour`, etc.
 
+Throughout this section, we'll use GMT's built-in Earth relief grids. The grids
+are available is several resolutions. They are downloaded automatically by GMT
+when you use the special `@earth_relief_rru` file name. See
+https://docs.generic-mapping-tools.org/latest/datasets/remote-data.html#global-earth-relief-grids
+
 Use [`grdinfo`](https://docs.generic-mapping-tools.org/latest/grdinfo.html) to
 get information about a grid file:
 
@@ -69,42 +73,6 @@ gmt grdinfo @earth_relief_10m -Cn -o6
 # Or store it in a variable with
 dx=`gmt grdinfo @earth_relief_10m -Cn -o6`
 ```
-
-## Grid registration
-
-The coordinates of grids and what the data values represent can be specified in
-two ways (known as the grid *registration*):
-
-* **Grid lines:** the coordinates correspond to the center of the area that is
-  represented by the data value (where grid lines intersect)
-* **Pixels:** the coordinates correspond to the borders of the area (pixel)
-
-![Illustration of gridline vs pixel registration](https://docs.generic-mapping-tools.org/latest/_images/GMT_registration.png)
-
-*Gridline (left) and pixel (right) registration of data nodes. The red shade
-indicates the areas represented by the value at the node (solid circle).*
-
-Grids are generated using one of the two options and it's **very important to
-know which you have** (hint: `grdinfo` can tell you). The plotting modules in
-GMT can usually automatically detect this. When generating output grids, you
-can specify which one you want using the `-r` option.
-
-Further reading: https://docs.generic-mapping-tools.org/latest/cookbook/options.html#grid-registration-the-r-option
-
-### Follow along
-
-Let's use `grdinfo` to figure out if the Earth relief grids are gridline or
-pixel registered:
-
-```
-gmt grdinfo @earth_relief_10m
-```
-
-GMT actually distributes both versions of the Earth relief data. You can
-specify which version you want by appending `_p` (for pixel) or `_g` (for
-gridline) to the file name (for example, `@earth_relief_10m_p`).
-
-Further reading: https://docs.generic-mapping-tools.org/latest/datasets/remote-data.html#global-earth-relief-grids
 
 ## Contour plots
 
@@ -255,4 +223,38 @@ You will be split into teams to work on an exercise:
 
 You map should look something like this:
 
-<img src="exercise.png" width="60%">
+<img src="exercise.png" width="70%">
+
+## EXTRA: Grid registration
+
+The coordinates of grids and what the data values represent can be specified in
+two ways (known as the grid *registration*):
+
+* **Grid lines:** the coordinates correspond to the center of the area that is
+  represented by the data value (where grid lines intersect)
+* **Pixels:** the coordinates correspond to the borders of the area (pixel)
+
+![Illustration of gridline vs pixel registration](https://docs.generic-mapping-tools.org/latest/_images/GMT_registration.png)
+
+*Gridline (left) and pixel (right) registration of data nodes. The red shade
+indicates the areas represented by the value at the node (solid circle).*
+
+Grids are generated using one of the two options and it's **very important to
+know which you have** (hint: `grdinfo` can tell you). The plotting modules in
+GMT can usually automatically detect this. When generating output grids, you
+can specify which one you want using the `-r` option.
+
+Further reading: https://docs.generic-mapping-tools.org/latest/cookbook/options.html#grid-registration-the-r-option
+
+Use `grdinfo` to figure out if the Earth relief grids are gridline or pixel
+registered:
+
+```
+gmt grdinfo @earth_relief_10m
+```
+
+GMT actually distributes both versions of the Earth relief data. You can
+specify which version you want by appending `_p` (for pixel) or `_g` (for
+gridline) to the file name (for example, `@earth_relief_10m_p`).
+
+Further reading: https://docs.generic-mapping-tools.org/latest/datasets/remote-data.html#global-earth-relief-grids
