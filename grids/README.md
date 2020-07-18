@@ -205,7 +205,7 @@ on the gradient of the data values). You can also apply custom shading
 (including shading one data type with another) using `grdgradient`.
 See the script [`images-shading.sh`](images-shading.sh). The output should look like:
 
-<img src="images-shading.png" width="50%">
+<img src="images-shading.png" width="60%">
 
 Further reading: https://docs.generic-mapping-tools.org/latest/grdgradient.html
 
