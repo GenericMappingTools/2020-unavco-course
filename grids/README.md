@@ -55,6 +55,10 @@ The option `-Cn` will print only numerical information about the grid (
 gmt grdinfo @earth_relief_10m -Cn
 ```
 
+Further reading: https://docs.generic-mapping-tools.org/latest/grdinfo.html
+
+**BONUS**
+
 Option `-o` can be combined with `-Cn` to select only one of the number printed
 out. This is useful if you need to use this information as input for other
 commands or assign them into *variables*. For example, we can get the grid
@@ -66,18 +70,17 @@ gmt grdinfo @earth_relief_10m -Cn -o6
 dx=`gmt grdinfo @earth_relief_10m -Cn -o6`
 ```
 
-Further reading: https://docs.generic-mapping-tools.org/latest/grdinfo.html
-
 ## Grid registration
 
 The coordinates of grids and what the data values represent can be specified in
 two ways (known as the grid *registration*):
 
-* Grid lines: the coordinates correspond to the center of the area that is
+* **Grid lines:** the coordinates correspond to the center of the area that is
   represented by the data value (where grid lines intersect)
-* Pixels: the coordinates correspond to the borders of the area (pixel)
+* **Pixels:** the coordinates correspond to the borders of the area (pixel)
 
 ![Illustration of gridline vs pixel registration](https://docs.generic-mapping-tools.org/latest/_images/GMT_registration.png)
+
 *Gridline (left) and pixel (right) registration of data nodes. The red shade
 indicates the areas represented by the value at the node (solid circle).*
 
