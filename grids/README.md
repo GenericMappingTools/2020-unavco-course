@@ -171,6 +171,8 @@ These are the maps you might be used to seeing. Each data value is
 mapped to a color through a colormap or **color palette table** (CPT) as they
 are called in GMT.
 
+<img src="images-global.png" width="70%">
+
 GMT has **many** CPTs: https://docs.generic-mapping-tools.org/latest/cookbook/cpts.html#of-colors-and-color-legends
 
 The command for plotting pseudo-color images in GMT is
@@ -196,17 +198,16 @@ See the script [`images.sh`](images.sh). The output should look like:
 
 <img src="images.png" width="50%">
 
-#### Choosing a CPT
+#### Hill shading
 
-We can choose different CPTs for our plot, depending on the type of data we're
-plotting. Custom CPTs can be generated and configures with the `makecpt`
-command.
-See the script [`images-cpt.sh`](images-cpt.sh). The output should look like:
+GMT supports automatic hill shading (adding a shadow effect to the image based
+on the gradient of the data values). You can also apply custom shading
+(including shading one data type with another) using `grdgradient`.
+See the script [`images-shading.sh`](images-shading.sh). The output should look like:
 
-<img src="images-cpt.png" width="50%">
+<img src="images-shading.png" width="50%">
 
-Further reading: https://docs.generic-mapping-tools.org/latest/cookbook/cpts.html#of-colors-and-color-legends
-and https://docs.generic-mapping-tools.org/latest/makecpt.html
+Further reading: https://docs.generic-mapping-tools.org/latest/grdgradient.html
 
 #### BONUS: Placing and customizing the colorbar
 
@@ -218,6 +219,16 @@ See the script [`images-colorbar.sh`](images-colorbar.sh). The output should loo
 <img src="images-colorbar.png" width="50%">
 
 Further reading: https://docs.generic-mapping-tools.org/latest/colorbar.html
+
+#### BONUS: Changing the CPT
+
+Custom CPTs can be generated and configured with the `makecpt` command.
+See the script [`images-cpt.sh`](images-cpt.sh). The output should look like:
+
+<img src="images-cpt.png" width="50%">
+
+Further reading: https://docs.generic-mapping-tools.org/latest/cookbook/cpts.html#of-colors-and-color-legends
+and https://docs.generic-mapping-tools.org/latest/makecpt.html
 
 ## Exercise
 
