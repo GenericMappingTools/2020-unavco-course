@@ -3,7 +3,7 @@
 # BONUS: Create an image plot of the geoid but shade it using topography to
 # give a slight impression of it on the smooth geoid map.
 
-gmt begin bonus-challenge png
+gmt begin bonus-challenge png E120
     # Make a global Mollweide map
     gmt basemap -Rg -JW25c -B
 
@@ -15,6 +15,9 @@ gmt begin bonus-challenge png
     # is needed for shading.
     gmt grdgradient @earth_relief_10m -A45 -N -Grelief_gradient.nc
 
+    # Get the grid spacing so that we can use it below
+    spacing=`gmt grdinfo relief_gradient.nc -Cn -o6`
+
     # The geoid data is in the remote file @osu91a1f_16.nc. This is a 60
     # arc-minute resolution grid. To use shading, the data and gradient grids
     # have to match. We will resample the geoid grid at the Earth relief
@@ -22,7 +25,7 @@ gmt begin bonus-challenge png
     # global region (-Rg) and indicate that the output grid has to use pixel
     # node registration (-rp) to match the earth relief grid (otherwise the
     # grid points would not be aligned).
-    gmt grdsample @osu91a1f_16.nc -Rg -I10m -rp -Ggeoid.nc
+    gmt grdsample @osu91a1f_16.nc -Rg -I$spacing -rp -Ggeoid.nc
     # WARNING: Resampling to smaller grid spacing is OK but doing the opposite
     # may result in aliasing!
 
