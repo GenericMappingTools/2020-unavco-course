@@ -131,5 +131,5 @@ Installers and instructions are available on their website. Some good reasons to
 2. You can install the [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) extension, which adds a button you click
    to run the active script in the terminal.
 3. You can add a [keyboard shortcut](https://stackoverflow.com/a/54439971) to run a highlighted script line in the terminal.
-4. For Windows users using WSL, you install the Windows version but you can access it from the WSL
+4. For Windows users using WSL, you install the Windows version but access it from the WSL
    command line using "code *file*".
