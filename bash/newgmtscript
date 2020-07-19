@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Make a new GMT script and make it executable
+# Do basic checks to make sure a prefix was given and script does not already exist
+if [ $# -eq 0 ]; then
+	echo "No script prefix given"
+	exit
+fi
+if [ -f $1.sh ]; then
+	echo "Script $1.sh already exists"
+	exit
+fi
+gmt --new-script=bash > $1.sh
+chmod +x $1.sh
+echo "open $1.sh in your editor"
+# This opens the file in VSC under macOS:
+# open -a '/Applications/Visual Studio Code.app' $1.sh
