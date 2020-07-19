@@ -1,0 +1,49 @@
+# GMT Basics
+
+Resources for the GMT basics session:
+
+**Instructor:**
+[Paul Wessel](http://www.soest.hawaii.edu/wessel/)
+
+**Resources**
+
+* My Google Slides on [GMT Basics](https://docs.google.com/presentation/d/16zYg13TOp9u_raN04BFJnENABHi-tKGzBXQWLtg87oA/edit?usp=sharing)
+
+**Tasks**
+
+* Where to find help for a GMT module
+* Map projections
+* Make directories and delete them from the command line
+* Using the *newgmtscript* command to make scripts.
+* Make several location maps using coastlines
+
+**Common Problems**:
+
+* Your PATH does not contain "." so you must type ./yourscript.sh to run your script.
+* You have spaces between a GMT option (e.g., -R) and its argument (e.g., -R 0/5/0/5).
+* You forgot to enclose a GMT modern session between **gmt begin** and **gmt end calls**.
+
+Note: You can clean up the modern environment with
+
+```
+gmt clear sessions
+```
+
+**Products**
+
+This session may build one or more scripts.  We are doing this together live but if you need to
+go back and check you can examine my scripts here.  We recommend you work through the course
+with us first before you open our scripts - they are there to help you later.
+
+1. Our final map of Italy:
+
+<img src="italy.png" width="60%">
+
+2. Our two maps from a multi-figure script:
+
+<img src="world1.png" width="60%">
+<img src="world2.png" width="60%">
+
+3. Our final subplot example:
+
+<img src="worlds.png" width="60%">
