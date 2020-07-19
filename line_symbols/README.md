@@ -20,8 +20,11 @@ How to create it? Open a terminal and the VisualStudio editor. In the editor typ
 	# Examples of lines with different pen settings
 
 	gmt begin lines png
+		# Create a file with the line start and end points
 		echo  0 0  > t.dat
 		echo 10 1 >> t.dat
+
+		# Plot a continuous red line with thickness of 1 point (1 point = 1/72 inch)
 		gmt plot t.dat -R-1/11/-1/11 -JX14 -Baf -BWSen -W1,red
 	gmt end show
 ```
@@ -80,7 +83,7 @@ adding these more plots other symbols (star, diamond, square, etc...)
 	echo 5 1 | gmt plot -Gred -Ss0.75c
 ```
 
-but when things start to be more interesting is when make use of GMT's own custom symbols.
+but when things start to be more interesting is when we make use of GMT's own custom symbols.
 There is a default set of [`custom symbols`](https://docs.generic-mapping-tools.org/latest/cookbook/custom-symbols.html?highlight=custom%20symbols#custom-plot-symbols) 
 that comes with GMT and several more contributed by users ([`wales and dolphins`](https://docs.generic-mapping-tools.org/latest/users-contrib-symbols.html#biology-symbols),
 [`geological`](https://docs.generic-mapping-tools.org/latest/users-contrib-symbols.html#structural-geology-symbols))
@@ -100,7 +103,8 @@ Add this and we get another row, this time with the custom symbols
 <img src="symbols2.png" width="60%">
 
 For even more elaborated symbols we can use EPS (encapsulated Postscript) files directly.
-These two are stored in the gMT server and will be download directly by GMT.
+These two are stored in the GMT server and will be download directly by GMT (the leading ``@`` is
+the responsible for that automatic download).
 
 ```
 	echo 1 5 | gmt plot -Sk@gallo/3.5c
@@ -140,6 +144,6 @@ You will be split into teams to work on an exercise:
 
 **Make a map similar to these but different colors and symbols**
 
-<img src="italia_I.png" width="60%">
+<img src="italia_II.png" width="60%">
 
 Don't look at the [`solution`](italia_II.sh).
