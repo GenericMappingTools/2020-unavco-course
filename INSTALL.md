@@ -122,7 +122,14 @@ from the GMT repository.
 
 You'll need a [text editor](https://en.wikipedia.org/wiki/Text_editor) to write GMT
 scripts.
-Any editor is fine and may use your preferred one.
-If you don't have one, we recommend installing the "Stable" version of [Visual Studio
+Any editor is fine and you may use your preferred one.  However, we will **strongly**
+recommend installing the "Stable" version of [Visual Studio
 Code](https://code.visualstudio.com/) on Linux, macOS, or Windows.
-Installers and instructions are available on their website.
+Installers and instructions are available on their website. Some good reasons to use VSC:
+
+1. You can open a terminal window in VSC and run your scripts directly in it.
+2. You can install the [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) extension, which adds a button you click
+   to run the active script in the terminal.
+3. You can add a [keyboard shortcut](https://stackoverflow.com/a/54439971) to run a highlighted script line in the terminal.
+4. For Windows users using WSL, you install the Windows version but you can access it from the WSL
+   command line using "code *file*".
