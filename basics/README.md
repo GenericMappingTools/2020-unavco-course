@@ -13,15 +13,12 @@ Resources for the GMT basics session:
 
 * Where to find help for a GMT module
 * Map projections
-* Make directories and delete them from the command line
-* Using the *newgmtscript* command to make scripts.
 * Make several location maps using coastlines
 
 **Common Problems**:
 
-* Your PATH does not contain "." so you must type ./yourscript.sh to run your script.
 * You have spaces between a GMT option (e.g., -R) and its argument (e.g., -R 0/5/0/5).
-* You forgot to enclose a GMT modern session between **gmt begin** and **gmt end calls**.
+* You forgot to enclose a GMT modern session between **gmt begin** and **gmt end** calls.
 
 Note: You can clean up the modern environment with
 
