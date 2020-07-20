@@ -1,7 +1,7 @@
 #!/usr/bin/env -S bash -e
 # Purpose: Make our completed GMT map of Italy
 export GMT_SESSION_NAME=$$	# Set a unique session name
-gmt begin italy png # Starting our new gmt modern mode session, calling plot italy and ask for pdf and png
+gmt begin italy pdf,png # Starting our new gmt modern mode session, calling plot italy and ask for pdf and png
     # Lay down painted continent with national borders on a Mercator map
     gmt coast -R5/20/35/50 -Wthin -Gwheat -EIT+gred -Df -Sazure -B -N1/thick,red -JM15c
     # Show where Italy is in the world via a map inset
