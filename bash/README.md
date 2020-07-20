@@ -14,11 +14,6 @@ Resources for the UNIX and bash session:
 * Survey the most basic bash command for doing work in a terminal
 * Explore our directory tree from the command line
 * Make directories and delete them from the command line
-* Create a helper script to make a fresh gmt bash script that is executable.
-
-**Common Problems**:
-
-* Your PATH does not contain "." so you must type ./yourscript.sh to run your script.
 
 **Products**
 
