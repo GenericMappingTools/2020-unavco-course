@@ -26,6 +26,11 @@ Note: You can clean up the modern environment with
 gmt clear sessions
 ```
 
+**Breakout Room Tasks**
+
+* Make a map of your country based on our Italy example
+* Make a 2x2 subset plot of 4 global projections
+
 **Products**
 
 This session may build one or more scripts.  We are doing this together live but if you need to
