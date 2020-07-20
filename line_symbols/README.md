@@ -142,8 +142,13 @@ You will be split into teams to work on an exercise:
 2. Work together to make a script that generates the desired plot
 3. If you have any questions, ask on the Slack chatroom
 
-**Make a map similar to these but different colors and symbols**
+**Make a maps similar to this but with different colors and symbols**
 
 <img src="italia_II.png" width="60%">
 
-Don't look at the [`solution`](italia_II.sh).
+1. Use different line styles to draw the itlian border
+2. Paint Italy with different colors and patterns
+3. Replace the *beach ball* with other symbols.
+4. Try to plot a different symbol for each of *beach ball* positions
+
+Don't look at *one* [`solution`](italia_II.sh).
