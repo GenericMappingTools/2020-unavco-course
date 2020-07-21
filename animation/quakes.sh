@@ -1,4 +1,4 @@
-#!/usr/bin/env -S bash -e
+#!/bin/bash
 # Make sure you run get_quakes.sh FIRST to obtain some data and create the CPT
 # and times.txt data file needed by movie script.
 # This script (below) creates a single frame, laying down a coast map and then

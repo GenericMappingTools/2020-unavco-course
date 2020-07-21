@@ -1,4 +1,4 @@
-#!/usr/bin/env -S bash -e
+#!/bin/bash
 # This script is a helper script to obtain NEIC seismicity from the USGS
 # You can edit the dates, times, magnitudes, and output order.
 SITE="https://earthquake.usgs.gov/fdsnws/event/1/query.csv"

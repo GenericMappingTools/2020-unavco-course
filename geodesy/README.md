@@ -1,6 +1,7 @@
 # Plotting deformation map with vectors
 
-This part of the tutorial is to plot vector (GNSS) data. For grided data go to https://github.com/GenericMappingTools/2020-unavco-course/tree/master/grids
+This part of the tutorial is to plot vector (GNSS) data. For gridded data go to https://github.com/GenericMappingTools/2020-unavco-course/tree/master/grids
+Other data at https://drive.google.com/file/d/17NnXWIMeVl6IjMIrnsfXNHIBVeyY9Xtc/view?usp=sharing
 
 ## Topics
 * [Vector attributes and examples](#vector-attributes)
