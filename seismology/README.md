@@ -121,7 +121,7 @@ The GCMT project provides focal mechasnism solutions for global earthquakes with
 5. Copy/paste the solutions into a plaintext file and save it.
 6. Now you can plot the beachballs using **meca** or **coupe**
 
-**NOTE**: Use **-Sd** for GCMT solutions, NOT **-Sa**.
+**NOTE**: Use `-Sd` for GCMT solutions, **NOT** `-Sa`.
 
 ## Group Exercise
 
