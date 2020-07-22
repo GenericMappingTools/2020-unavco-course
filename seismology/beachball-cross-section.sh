@@ -1,4 +1,15 @@
 #!/usr/bin/env bash
+#
+# Plot cross-section of beachballs
+#
 gmt begin beachball-cross-section png
-	gmt coupe meca.dat -Sa1c -Aa111/33/119/33/90/500/0/50 -R0/1000/0/100 -JX15c/-8c -Bxaf+l"Distance (km)" -Byaf+l"Depth (km)" -BWSen -Q
+	# The cross-section is selected by specifying the locations (longitude and latitude)
+	# of a starting point (111/33), and an ending point (119/33).
+	# The cross-section plane is vertical (dip angle=90), with the width set to be 500 km,
+	# and depth to be 0-50 km.
+	# +f automatically determine the frame region for us. So -R is not necessary.
+	#
+	# To reverse the Y axis, set the figure heigth to a negative value (-8c)
+	gmt coupe meca.dat -Sa1c -Aa111/33/119/33/90/500/0/50+f -Q \
+		-JX15c/-8c -Bxaf+l"Distance (km)" -Byaf+l"Depth (km)" -BWSen
 gmt end show

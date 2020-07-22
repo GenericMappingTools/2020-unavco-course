@@ -121,7 +121,7 @@ The GCMT project provides focal mechasnism solutions for global earthquakes with
 5. Copy/paste the solutions into a plaintext file and save it.
 6. Now you can plot the beachballs using **meca** or **coupe**
 
-**NOTE**: Use `-Sd` for GCMT solutions, **NOT** `-Sa`.
+**NOTE**: Use `-Sd`, `-Sm` or `-Sz` for GCMT solutions, **NOT** `-Sa`.
 
 ## Group Exercise
 
@@ -142,9 +142,10 @@ You will be split into teams to work on an exercise:
 
 **TIPS**
 
-- You need to use `-Sd` for GCMT solutions
+- You need to use `-Sd`, `-Sm` or `-Sz` for GCMT solutions, **NOT** `-Sa`.
 - Use `-i0-9` to read the first 10 columns, so that **meca** and **coupe** won't
-  plot the event title strings
+  plot the event lables
+- You may have white beachballs if the event depth is out of the CPT range
 
 Map view (**meca**)        |  Cross-section view (**coupe**)
 :-------------------------:|:-------------------------:

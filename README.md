@@ -12,7 +12,7 @@ Material for the 2020 UNAVCO Short Course.
 **Assistants:**
 Brook Tozer [GNS New Zealand], Lauren Ward and Andrew Chase [UH Manoa]
 
-**When [DRAFT]**:
+**When**:
 July 20-21 (Monday-Tuesday), 2020., 1700-2200 UTC
 07:00 - 12:00 Hawaii
 10:00 - 15:00 US Pacific Coast
@@ -23,7 +23,7 @@ July 20-21 (Monday-Tuesday), 2020., 1700-2200 UTC
 On-line via zoom
 
 **Planning**:
-Participants must **have their own computers** (Mac, Windows, or Linux) with the
+Participants must **have their own computers** (macOS, Windows, or Linux) with the
 required **software already installed** (see [Installing](#installing) below).
 
 This 2-day course will cover the use of Generic Mapping Tools (GMT) in geodesy
