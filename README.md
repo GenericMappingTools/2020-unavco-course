@@ -51,6 +51,8 @@ there are a few ways to ask for help:
 
 The workshop video recording, slides and shared notes will be available [here](https://drive.google.com/drive/u/1/folders/1Vp8jKZJZnxJnBwiMtmEWw_G1DPr9CwSi).
 
+The workshop video recording can also be found on Youtube: https://www.youtube.com/playlist?list=PLzmugeDoplFPq6k7u1ebNbiBzqFA-OwXF
+
 ## Schedule
 
 Please make sure you know the local time for the sessions!  Use the [time zone converter](https://www.timeanddate.com/worldclock/converter.html) and compare UTC to your time zone.
